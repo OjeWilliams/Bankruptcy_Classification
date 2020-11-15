@@ -4,6 +4,7 @@
 ####### TO RUN THIS SCRIPT YOU MUST HAVE RUN  PART OF THE R_CLASSIFICATION_CODE SCRIPT ######
 #############################################################################################
 
+#### FITTING MODEL WITHOUT WEIGHTS ####
 elas.cv.fit      =     cv.glmnet(X.train, y.train, family = "binomial", alpha=0.5,nfolds=10)
 elas.fit         =     glmnet(X.train, y.train, alpha = 0.5, lambda = elas.cv.fit$lambda.min)
 end.time<-Sys.time()
@@ -47,3 +48,4 @@ ggplot(df.elas)+geom_point(data=df.elas,size=1,aes(x=threshold,y=false_positive_
 ########GRAPH SHOWING ELASTIC NET ERROR RATES######
 ggplot(df.elas,aes(x=threshold,y=error_rate))+geom_line()+
   theme_minimal()
+
