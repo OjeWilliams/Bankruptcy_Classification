@@ -26,6 +26,4 @@ The data has 64 predictors/features and one response variable. Some of the featu
 Source
 https://www.kaggle.com/c/companies-bankruptcy-forecast/data
 
-**Team**
-1. Jorge Lopez
-2. Oje Williams
+**Team**1. Jorge Lopez2. Oje Williams
