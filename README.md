@@ -28,4 +28,4 @@ https://www.kaggle.com/c/companies-bankruptcy-forecast/data
 
 **Team**
 1. Jorge Lopez
-2. 2. Oje Williams
+2. Oje Williams
