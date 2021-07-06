@@ -7,7 +7,7 @@
  ### Data Info
  The dataset is about bankruptcy prediction of Polish companies. The data was collected from Emerging Markets Information Service, which is a database containing information on emerging markets around the world. The bankrupt companies were analyzed in the period 2000-2012, while the still operating companies were evaluated from 2007 to 2013. The training data set was based on the Polish company bankruptcy  Data Set available at UCI Machine Learning Repository. Data has been preprocessed by removing missing values and standardizing columns.
  
-The data has 64 predictors/features and one response variable. Some of the features are as follows along with the response variables “class”
+The data has 64 predictors/features and one response variable. Some of the features are as follows along with the response variables “class”.
 
 •	attr1 - net profit / total assets
 
